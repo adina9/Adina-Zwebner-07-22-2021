@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Adina-Zwebner-07-22-2021/static/css/main.aac1f0c5.chunk.css",
+    "main.js": "/Adina-Zwebner-07-22-2021/static/js/main.b18f5f83.chunk.js",
+    "main.js.map": "/Adina-Zwebner-07-22-2021/static/js/main.b18f5f83.chunk.js.map",
+    "runtime-main.js": "/Adina-Zwebner-07-22-2021/static/js/runtime-main.9ca3696a.js",
+    "runtime-main.js.map": "/Adina-Zwebner-07-22-2021/static/js/runtime-main.9ca3696a.js.map",
+    "static/js/2.7c84bd8a.chunk.js": "/Adina-Zwebner-07-22-2021/static/js/2.7c84bd8a.chunk.js",
+    "static/js/2.7c84bd8a.chunk.js.map": "/Adina-Zwebner-07-22-2021/static/js/2.7c84bd8a.chunk.js.map",
+    "static/js/3.cd3c899d.chunk.js": "/Adina-Zwebner-07-22-2021/static/js/3.cd3c899d.chunk.js",
+    "static/js/3.cd3c899d.chunk.js.map": "/Adina-Zwebner-07-22-2021/static/js/3.cd3c899d.chunk.js.map",
+    "index.html": "/Adina-Zwebner-07-22-2021/index.html",
+    "service-worker.js": "/Adina-Zwebner-07-22-2021/service-worker.js",
+    "service-worker.js.map": "/Adina-Zwebner-07-22-2021/service-worker.js.map",
+    "static/css/main.aac1f0c5.chunk.css.map": "/Adina-Zwebner-07-22-2021/static/css/main.aac1f0c5.chunk.css.map",
+    "static/js/2.7c84bd8a.chunk.js.LICENSE.txt": "/Adina-Zwebner-07-22-2021/static/js/2.7c84bd8a.chunk.js.LICENSE.txt",
+    "static/media/15.9aac7942.png": "/Adina-Zwebner-07-22-2021/static/media/15.9aac7942.png",
+    "static/media/16.02f6796a.png": "/Adina-Zwebner-07-22-2021/static/media/16.02f6796a.png",
+    "static/media/17.4b8d4543.png": "/Adina-Zwebner-07-22-2021/static/media/17.4b8d4543.png",
+    "static/media/41.da896071.png": "/Adina-Zwebner-07-22-2021/static/media/41.da896071.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9ca3696a.js",
+    "static/js/2.7c84bd8a.chunk.js",
+    "static/css/main.aac1f0c5.chunk.css",
+    "static/js/main.b18f5f83.chunk.js"
+  ]
+}
