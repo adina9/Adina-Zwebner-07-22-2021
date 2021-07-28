@@ -1,0 +1,11 @@
+.city-preview {
+    padding: 0 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+        background-color:#d2d0d0;
+    }
+    p {
+        transition: 0.1s;
+    }
+}

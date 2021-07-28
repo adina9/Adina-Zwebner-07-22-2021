@@ -1,0 +1,27 @@
+.day-preview {
+    box-shadow: 5px 7px 20px 0px $clr5;
+    .details {
+        height: 15vh;
+        background-color: #dddde1e8;
+        .date {
+            margin-bottom: 5%;
+        }
+    }
+    .img {
+        background-color: #dbdcddad;
+        img {
+            width: 85%;
+            margin: 3% 7%;
+        }
+    }
+}
+@media (max-width: 570px) {
+    .day-preview {
+        width: 100%;
+        left: 50%;
+        margin: auto;
+        .details {
+            height: 25vh;
+        }
+    }
+}

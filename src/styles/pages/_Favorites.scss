@@ -1,0 +1,62 @@
+.fav-not-found {
+    margin: 20% auto;
+    font-size: xx-large;
+}
+.favorites {
+    background-image: linear-gradient(0deg, #b6e5ff, #2a27e6);
+    width: 100%;
+    height: 100%;
+    span {
+        color: $clr2;
+        position: absolute;
+        top: 10vh;
+        left: 50%;
+        transform: translateX(-50%);
+        text-transform: capitalize;
+        font-size: xx-large;
+        letter-spacing: 3px;
+    }
+    .favorites-list {
+        flex-wrap: wrap;
+        gap: 5%;
+        width: 80%;
+        margin: 20vh 10vh;
+        .fav-preview {
+            width: 25vh;
+            height: 30vh;
+            padding: 5%;
+            box-shadow: 5px 7px 20px 0px $clr5;
+            border: 1px solid;
+            border-radius: 3px;
+            transition: 0.2s;
+            div {
+                justify-content: space-evenly;
+                height: 100%;
+            }
+            &:hover {
+                background-color: rgb(228, 226, 226);
+            }
+            .MuiSvgIcon-root {
+                cursor: pointer;
+            }
+            p:first-of-type {
+                font-weight: bold;
+                font-size: x-large;
+                letter-spacing: 1.5px;
+            }
+        }
+    }
+    &.dark {
+        background-image: linear-gradient(0deg, #020610, #172b4d);
+        .favorites-list .fav-preview {
+            border: 1px solid $clr1;
+            color: $clr1;
+            &:hover {
+                color: $clr2;
+            }
+        }
+        span {
+            color: $clr1;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.weather-app {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-image: linear-gradient(0deg, #b6e5ff, #2a27e6);
+    overflow: auto;
+    transition: 0.3s;
+    &.dark {
+        background-image: linear-gradient(0deg, #020610, #172b4d);
+    }
+}
+

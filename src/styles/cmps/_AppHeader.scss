@@ -1,0 +1,30 @@
+.app-header {
+    background-color:#2726b6 ;
+    color: $clr2;
+    height: 8vh;
+    z-index: 2;
+    width: 100%;
+    transition: 0.5s;
+    letter-spacing: 2px;
+    top: 0;
+    .inner-div {
+        width: 100%;
+        color: $clr4;
+    }
+    .nav-links {
+        float: right;
+        & > * {
+            margin-left: 5vw;
+        }
+    }
+    .active-link {
+        font-weight: bold;
+    }
+    .toggles {
+        right: 2vh;
+        top: 10vh;
+    }
+    &.dark{
+        background-color: #16243e;
+    }
+}

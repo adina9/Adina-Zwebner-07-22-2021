@@ -1,0 +1,20 @@
+// Setup
+@import "./setup/variables.scss";
+
+// Basics
+@import "./basics/helpers.scss";
+@import "./basics/layout.scss";
+@import "./basics/base.scss";
+
+// Pages
+@import "./pages/WeatherApp";
+@import "./pages/Favorites";
+
+// Components
+@import "./cmps/AppHeader";
+@import "./cmps/DaysList";
+@import "./cmps/CityFilter";
+@import "./cmps/CitiesList";
+@import "./cmps/CityPreview";
+@import "./cmps/DayPreview";
+@import "./cmps/ToggleWrapper";
